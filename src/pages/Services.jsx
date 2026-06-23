@@ -25,13 +25,13 @@ const Services = () => {
     <div className="overflow-x-hidden bg-white">
 
       {/* Hero */}
-      <section className="relative h-[75vh] flex items-center justify-center overflow-hidden bg-primary text-center">
+      <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-primary text-center">
         <div className="absolute inset-0">
           <motion.img
             initial={{ scale: 1.08 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
-            src="/hero.jpg"
+            src="../assosa-3.png"
             alt="Structural engineering"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -9,7 +9,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import ProjectDetails from './pages/ProjectDetails'
 import ServiceDetails from './pages/ServiceDetails'
-import Loader from './components/Loader'
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -21,20 +21,8 @@ const ScrollToTop = () => {
 };
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
-  const location = useLocation();
-
-  useLayoutEffect(() => {
-    setIsLoading(true);
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1500); // 1500ms loading delay
-    return () => clearTimeout(timer);
-  }, [location.pathname]);
-
   return (
     <div className="min-h-screen flex flex-col font-sans bg-neutral-white selection:bg-accent selection:text-white">
-      <Loader isLoading={isLoading} />
       <ScrollToTop />
       <Navbar />
       <main className="flex-grow">
