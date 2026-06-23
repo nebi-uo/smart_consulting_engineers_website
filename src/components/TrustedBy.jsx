@@ -4,12 +4,10 @@ import { motion } from 'framer-motion';
 const TrustedBy = () => {
   // Swap these placeholder mapped objects out with your actual partner logo imports or paths
   const logos = [
-    { id: 1, src: '/partner-1.png', alt: 'Partner Brand 1' },
-    { id: 2, src: '/partner-2.png', alt: 'Partner Brand 2' },
-    { id: 3, src: '/partner-3.png', alt: 'Partner Brand 3' },
-    { id: 4, src: '/partner-4.png', alt: 'Partner Brand 4' },
-    { id: 5, src: '/partner-5.png', alt: 'Partner Brand 5' },
-    { id: 6, src: '/partner-6.png', alt: 'Partner Brand 6' }
+    { id: 1, src: '../aser.png', alt: 'Partner Brand 1' },
+    { id: 2, src: '../denzay.png', alt: 'Partner Brand 2' },
+    { id: 3, src: '../casta.png', alt: 'Partner Brand 3' },
+    { id: 4, src: '../era.png', alt: 'Partner Brand 4' }
   ];
 
   return (
@@ -37,11 +35,6 @@ const TrustedBy = () => {
             {/* Double the logos for seamless loop */}
             {[...logos, ...logos].map((item, idx) => (
               <div key={`${item.id}-${idx}`} className="h-10 w-32 relative shrink-0 transition-all duration-300 opacity-70 hover:opacity-100 cursor-pointer flex items-center justify-center">
-
-                {/* Fallback dashed box when your image paths aren't found yet */}
-                <div className="absolute inset-0 bg-gray-50 border border-dashed border-gray-200 flex items-center justify-center -z-10">
-                  <span className="text-[8px] text-gray-400 font-bold uppercase tracking-widest text-center px-2">Logo {item.id}<br />Space</span>
-                </div>
 
                 {/* The actual image tag - it hides cleanly if your image is missing */}
                 <img
