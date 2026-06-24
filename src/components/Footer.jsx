@@ -10,7 +10,7 @@ function Footer() {
           <div>
             <h2 className="text-3xl font-display font-bold text-white mb-2 tracking-tight">SMART<span className="text-accent">.</span></h2>
             <span className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-8">Consulting Engineers PLC</span>
-            <p className="text-gray-300 text-base leading-relaxed max-w-xs opacity-80">The global structural foundation for long-term commercial success and infrastructural safety.</p>
+            <p className="text-gray-300 text-base leading-relaxed max-w-xs opacity-80">Committed To Excellence</p>
           </div>
         </div>
 
@@ -27,10 +27,10 @@ function Footer() {
         <div>
           <h4 className="text-xs uppercase font-semibold tracking-wider mb-8 text-white">Expertise</h4>
           <ul className="space-y-4 text-gray-300 text-sm font-normal opacity-80">
-            <li><Link to="/service/structural-engineering" className="cursor-pointer hover:text-white transition-colors inline-block">Structural Engineering</Link></li>
-            <li><Link to="/service/project-management-advisory" className="cursor-pointer hover:text-white transition-colors inline-block">Project Management</Link></li>
-            <li><Link to="/service/civil-infrastructure-planning" className="cursor-pointer hover:text-white transition-colors inline-block">Civil Planning</Link></li>
-            <li><Link to="/service/site-inspection-supervision" className="cursor-pointer hover:text-white transition-colors inline-block">Site Inspections</Link></li>
+            <li><Link to="/service/feasibility-study" className="cursor-pointer hover:text-white transition-colors inline-block">Feasibility & Planning</Link></li>
+            <li><Link to="/service/site-investigation" className="cursor-pointer hover:text-white transition-colors inline-block">Site Investigation</Link></li>
+            <li><Link to="/service/engineering-design" className="cursor-pointer hover:text-white transition-colors inline-block">Engineering Design</Link></li>
+            <li><Link to="/service/project-management" className="cursor-pointer hover:text-white transition-colors inline-block">Project Management and Advisory</Link></li>
           </ul>
         </div>
 
@@ -38,8 +38,6 @@ function Footer() {
           <h4 className="text-xs uppercase font-semibold tracking-wider mb-8 text-white">Connect</h4>
           <div className="flex gap-4">
             <a href="#" className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-accent hover:border-accent transition-all text-sm font-semibold">IN</a>
-            <a href="#" className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-accent hover:border-accent transition-all text-sm font-semibold">X</a>
-            <a href="#" className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-accent hover:border-accent transition-all text-sm font-semibold">FB</a>
           </div>
         </div>
 

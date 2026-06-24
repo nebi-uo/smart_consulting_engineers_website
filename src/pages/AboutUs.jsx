@@ -15,20 +15,20 @@ const AboutUs = () => {
 
   const featureCards = [
     { value: "6+",   label: "Years of Experience" },
-    { value: "100+", label: "Projects Completed" },
-    { value: "15+",  label: "Global Partners" },
+    { value: "10+", label: "Projects Completed" },
+    { value: "3+",  label: "Global Partners" },
     { value: "ISO",  label: "Certified Standards" },
   ];
 
   const whyUsCards = [
-    { num: "01", title: "Our Mission",     desc: "To deliver innovative, sustainable solutions in highway and bridge engineering that create lasting value for clients and communities.", icon: <Target className="w-8 h-8 text-accent" /> },
-    { num: "02", title: "Our Vision",      desc: "To be the leading civil engineering consultancy in the region, known for technical excellence and reliable delivery.", icon: <Eye    className="w-8 h-8 text-accent" /> },
-    { num: "03", title: "Core Values",     desc: "Responsible, ethical, progressive, and collaborative — we tailor solutions and drive practical outcomes on every project.", icon: <Trophy className="w-8 h-8 text-accent" /> },
-    { num: "04", title: "Quality Policy",  desc: "We deliver high-quality, safe, and sustainable highway and bridge services that maximize value for all stakeholders.", icon: <Zap    className="w-8 h-8 text-accent" /> },
+    { num: "01", title: "Our Mission",     desc: "To deliver high-quality, reliable, and multidisciplinary engineering consultancy services for infrastructure development, driven by professionalism, strong work ethics, and trusted partnerships, while creating lasting value for clients, employees, and communities.", icon: <Target className="w-8 h-8 text-accent" /> },
+    { num: "02", title: "Our Vision",      desc: "To be a leading national and internationally recognized engineering consultancy, distinguished by strong governance, professional integrity, technical excellence, and a sustained contribution to sustainable development.", icon: <Eye    className="w-8 h-8 text-accent" /> },
+    { num: "03", title: "Core Values",     desc: "We are committed to integrity, technical excellence, innovation, and collaboration, delivering practical, high-quality engineering solutions that meet local needs while creating lasting value for our clients and communities.", icon: <Trophy className="w-8 h-8 text-accent" /> },
+    { num: "04", title: "Quality Policy",  desc: "SMART Consulting Engineers PLC is committed to exceeding client expectations through quality management, skilled professionals, continuous improvement, and a strong focus on safety, sustainability, and long-term value.", icon: <Zap    className="w-8 h-8 text-accent" /> },
   ];
 
   const leaders = [
-    { name: "Mr. Behailu Tsegaye", role: "Partner and Deputy General Manager", image: "/leader2.png" },
+    { name: "Mr. Behailu Tsegaye", role: "General Manager", image: "/leader2.png" },
     { name: "Mr. Merawi T/Mariam", role: "Partner and General Manager", image: "/merawi.png"  },
     { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
   ];
@@ -65,7 +65,7 @@ const AboutUs = () => {
         <motion.div {...fadeIn} className="text-center mb-16">
           <SectionTitle title="Who We Are" className="flex flex-col items-center !mb-6" />
           <p className="text-neutral-dark text-base leading-relaxed max-w-3xl mx-auto opacity-80">
-            SMART Consulting Engineers PLC, established in February 2020 and headquartered in Addis Ababa, Ethiopia, provides multidisciplinary consultancy services in civil engineering and infrastructure development. Founded by experienced professionals with strong backgrounds in planning, design, construction, and supervision of roads, bridges, and related projects, the firm brings deep technical expertise. We mobilize skilled teams to deliver reliable solutions across projects of all sizes in both urban and rural environments.
+            SMART Consulting Engineers PLC (SCE) is a multidisciplinary engineering and management consultancy based in Addis Ababa, delivering infrastructure solutions across Ethiopia. Established in 2020, the firm provides services ranging from feasibility studies and engineering design to construction supervision and contract administration, supported by a team of over 40 professionals. Operating under an ISO 9001:2015-certified quality management system, SCE serves public institutions, private developers, NGOs, and international partners with innovative, cost-effective, and sustainable engineering solutions.
           </p>
         </motion.div>
 

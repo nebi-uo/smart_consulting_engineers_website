@@ -18,7 +18,7 @@ const AboutUsSection = () => (
         <div className="absolute inset-0 bg-primary translate-x-3 translate-y-3" />
         <div className="relative z-10 border border-gray-200">
           <img
-            src="/aboutpageimage.png"
+            src="../aboutsec.png"
             alt="Engineering structural analysis"
             className="w-full h-auto block"
           />
@@ -50,7 +50,7 @@ const AboutUsSection = () => (
           <div className="w-px bg-gray-200" />
           <div>
             <div className="text-4xl font-display font-bold text-primary mb-1 tracking-tight">
-              100<span className="text-accent text-2xl">+</span>
+              10<span className="text-accent text-2xl">+</span>
             </div>
             <div className="text-xs text-gray-400 font-semibold uppercase tracking-wider">Projects Completed</div>
           </div>

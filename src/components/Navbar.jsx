@@ -9,7 +9,7 @@ function TopBanner() {
     <div className="fixed top-0 left-0 w-full z-50 bg-primary border-b border-white/10">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-16 h-9 flex items-center justify-between">
 
-        <a href="https://maps.google.com/?q=Addis+Ababa+Ethiopia" target="_blank" rel="noopener noreferrer" className="hidden md:flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+        <a href="https://maps.app.goo.gl/orrYkoqSNsmD8NFA9" target="_blank" rel="noopener noreferrer" className="hidden md:flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
           <MapPin className="w-3 h-3 text-accent shrink-0" />
           <span className="text-[11px] font-medium tracking-wide">Addis Ababa, Ethiopia</span>
         </a>
@@ -17,10 +17,10 @@ function TopBanner() {
         <div className="flex items-center gap-6 ml-auto">
           <a href="tel:+251911000000" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
             <Phone className="w-3 h-3 text-accent shrink-0" />
-            <span className="text-[11px] font-medium tracking-wide">+251 91 117 5793</span>
+            <span className="text-[11px] font-medium tracking-wide">+251 98 634 8686</span>
           </a>
 
-          <a href="mailto:info@smartconsulting.com" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
+          <a href="mailto:smartconsultinget@gmail.com" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
             <Mail className="w-3 h-3 text-accent shrink-0" />
             <span className="text-[11px] font-medium tracking-wide">smartconsultinget@gmail.com</span>
           </a>
@@ -29,8 +29,6 @@ function TopBanner() {
 
           <div className="flex items-center gap-4">
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-[11px] font-semibold text-gray-400 hover:text-accent transition-colors tracking-wider uppercase">Li</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[11px] font-semibold text-gray-400 hover:text-accent transition-colors tracking-wider uppercase">X</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[11px] font-semibold text-gray-400 hover:text-accent transition-colors tracking-wider uppercase">Fb</a>
           </div>
         </div>
 
@@ -108,8 +106,8 @@ function Navbar() {
 
       <nav className={navClass}>
 
-        <Link to="/" className="flex items-center h-12 shrink-0">
-          <img src="/mainlogo.svg" alt="Smart Consulting" className="h-8 lg:h-10 w-auto object-contain" />
+        <Link to="/" className="flex items-center h-10 shrink-0">
+          <img src="../mainlogo.svg" alt="Smart Consulting" className="h-10 lg:h-25 w-auto object-contain" />
         </Link>
 
         <div className="hidden lg:flex items-center gap-10 absolute left-1/2 -translate-x-1/2">

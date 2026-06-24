@@ -34,7 +34,7 @@ const TrustedBy = () => {
           <div className="flex items-center gap-16 min-w-[200%] animate-[marquee_25s_linear_infinite]">
             {/* Double the logos for seamless loop */}
             {[...logos, ...logos].map((item, idx) => (
-              <div key={`${item.id}-${idx}`} className="h-10 w-32 relative shrink-0 transition-all duration-300 opacity-70 hover:opacity-100 cursor-pointer flex items-center justify-center">
+              <div key={`${item.id}-${idx}`} className="h-25 w-32 relative shrink-0 transition-all duration-300 opacity-70 hover:opacity-100 cursor-pointer flex items-center justify-center">
 
                 {/* The actual image tag - it hides cleanly if your image is missing */}
                 <img
