@@ -23,7 +23,7 @@ const ProjectsPage = () => {
             initial={{ scale: 1.08 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
-            src="/heroimage.png"
+            src="../portfolio.png"
             alt="Engineering structural project"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />

@@ -28,9 +28,12 @@ const AboutUs = () => {
   ];
 
   const leaders = [
-    { name: "Mr. Behailu Tsegaye", role: "General Manager", image: "/leader2.png" },
-    { name: "Mr. Merawi T/Mariam", role: "Partner and General Manager", image: "/merawi.png"  },
+    { name: "Mr. Behailu Tsegaye", role: "General Manager and Partner", image: "/leader2.png" },
+    { name: "Mr. Merawi T/Mariam", role: "Partner and Highway Designer", image: "/mer.png"  },
     { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
+    { name: "Mr. Misleneh", role: "Head of HR Department", image: "../staff-1.png" },
+    { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
+    { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" }
   ];
 
   return (
@@ -43,7 +46,7 @@ const AboutUs = () => {
             initial={{ scale: 1.08 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
-            src="/aboutpageimage.png"
+            src="../aboutpageimage.png"
             alt="Engineering office"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />
