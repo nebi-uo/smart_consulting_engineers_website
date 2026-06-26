@@ -47,7 +47,7 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} Smart Engineering. All rights reserved.</p>
         <p>
           Designed and Built by{" "}
-          <a href="https://anviorsynergy.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-accent transition-colors normal-case">ANvior Synergy</a>
+          <a href="https://anvior-synergy.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-accent transition-colors normal-case">ANvior Synergy</a>
         </p>
       </div>
 
