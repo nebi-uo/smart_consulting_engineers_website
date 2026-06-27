@@ -30,7 +30,7 @@ const Hero = () => {
             <span className="text-accent">Excellence.</span>
           </h1>
           <p className="text-base md:text-lg text-gray-200 mb-10 leading-relaxed max-w-xl">
-            Delivering robust, sustainable structural engineering solutions across commercial and infrastructure sectors.
+            Delivering robust, sustainable, and innovative engineering solutions across commercial and infrastructure sectors.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/services">
