@@ -3,12 +3,14 @@ export const services = [
     id: "feasibility-study",
     title: "Feasibility & Planning",
     category: "Analysis / Design",
-    description: "We assess project viability and develop preliminary designs to support informed decision-making.",
+    description: "We assess project feasibility and develop preliminary designs to support informed decision-making.",
     image: "../feasibility.png",
     iconName: "Building2",
     deliverables: [
       "Feasibility Studies",
-      "Preliminary Engineering Design"
+      "Preliminary Engineering Design",
+      "Environmental and Social Impact Assessment (ESIA)",
+      "Risk Analysis"
     ],
   },
   {
@@ -34,7 +36,14 @@ export const services = [
     deliverables: [
       "Detailed Engineering Design",
       "Design Review",
-      "Tender Document Preparation"
+      "Tender Document Preparation", 
+      "Highway and Bridge Engineering",
+      "Architectural and Building Design",
+      "Infrastructure Engineering",
+      "Water Supply and Wastewater and Sewerage Systems",
+      "Water Resources and Irrigation Engineering",
+      "Hydrology and Hydraulic Engineering",
+      "Stormwater Drainage and Flood Management",
     ],
   },
   {
@@ -48,7 +57,7 @@ export const services = [
       "Construction Supervision and Contract Administration",
       "Constructability Reviews and Value Engineering",
       "Technical Advisory",
-      "Bid Evaluation and Assisting",
+      "Bid Evaluation and Assisting"
     ],
   }
 ];

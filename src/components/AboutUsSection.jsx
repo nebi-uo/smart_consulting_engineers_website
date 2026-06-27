@@ -50,7 +50,7 @@ const AboutUsSection = () => (
           <div className="w-px bg-gray-200" />
           <div>
             <div className="text-4xl font-display font-bold text-primary mb-1 tracking-tight">
-              10<span className="text-accent text-2xl">+</span>
+              30<span className="text-accent text-2xl">+</span>
             </div>
             <div className="text-xs text-gray-400 font-semibold uppercase tracking-wider">Projects Completed</div>
           </div>

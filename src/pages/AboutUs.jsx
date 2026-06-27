@@ -15,7 +15,7 @@ const AboutUs = () => {
 
   const featureCards = [
     { value: "6+",   label: "Years of Experience" },
-    { value: "10+", label: "Projects Completed" },
+    { value: "30+", label: "Projects Completed" },
     { value: "3+",  label: "Global Partners" },
     { value: "ISO",  label: "Certified Standards" },
   ];
@@ -87,7 +87,7 @@ const AboutUs = () => {
       <section className="py-24 bg-gray-50 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6 lg:px-16">
           <motion.div {...fadeIn} className="text-center mb-16">
-            <SectionTitle title="The Smart Advantage" className="flex flex-col items-center !mb-4" />
+            <SectionTitle title="The SMART Advantage" className="flex flex-col items-center !mb-4" />
             <p className="text-neutral-dark text-base opacity-80">Four pillars that define how we work.</p>
           </motion.div>
 

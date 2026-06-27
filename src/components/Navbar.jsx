@@ -199,7 +199,7 @@ function Navbar() {
       <nav className={navClass}>
 
         <Link to="/" className="flex items-center shrink-0">
-          <img src="/mainlogo.svg" alt="Smart Consulting" className="h-14 w-auto object-contain" />
+          <img src="../mainlogo.svg" alt="Smart Consulting" className="h-10 w-auto object-contain" />
         </Link>
 
         <div className="hidden lg:flex items-center gap-10 absolute left-1/2 -translate-x-1/2">
