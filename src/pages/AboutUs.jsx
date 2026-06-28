@@ -31,9 +31,7 @@ const AboutUs = () => {
     { name: "Mr. Behailu Tsegaye", role: "General Manager and Partner", image: "/leader2.png" },
     { name: "Mr. Merawi T/Mariam", role: "Partner and Highway Designer", image: "/mer.png"  },
     { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
-    { name: "Mr. Misleneh", role: "Head of HR Department", image: "../staff-1.png" },
-    { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
-    { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" }
+    { name: "Mr. Misleneh", role: "Head of HR Department", image: "../staff-1.png" }
   ];
 
   return (

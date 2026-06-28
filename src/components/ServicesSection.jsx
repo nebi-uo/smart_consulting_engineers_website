@@ -30,7 +30,7 @@ const ServicesSection = () => {
         >
           <SectionTitle title="Our Services" className="!mb-6" />
           <p className="text-neutral-dark text-base leading-relaxed mb-8 opacity-80">
-            Structural analysis, construction supervision, and comprehensive documentation for civil projects of any scale.
+            Providing expert engineering consultancy services that support informed decisions, innovative designs, and successful project delivery. 
           </p>
         </motion.div>
 
