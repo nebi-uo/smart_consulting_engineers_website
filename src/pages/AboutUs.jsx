@@ -70,7 +70,7 @@ const AboutUs = () => {
         <motion.div {...fadeIn} className="text-center mb-16">
           <SectionTitle title="Who We Are" className="flex flex-col items-center !mb-6" />
           <p className="text-neutral-dark text-base leading-relaxed max-w-3xl mx-auto opacity-80">
-            SMART Consulting and Engineering is a multidisciplinary engineering consultancy firm established in 2020 to provide professional consulting services in the fields of Highway and Bridge Engineering, Architectural and Infrastructure, Water Resources and Irrigation Engineering, And Related Infrastructure development projects. SMART Consulting and Engineering is staffed by a team of more than 43 qualified professionals and support personnel, comprising engineers, architects, surveyors and administrative staff. The firm's multidisciplinary expertise enables it to undertake projects of varying size and complexity while ensuring compliance with national and international engineering standards.
+            SMART Consulting and Engineering is a multidisciplinary consultancy founded in 2020, offering professional services in Highway and Bridge Engineering, Architecture, Water Resources, Irrigation, and related infrastructure development. With a team of over 43 engineers, architects, surveyors, and administrative staff, the firm delivers projects of varying scale and complexity in line with national and international engineering standards.
           </p>
         </motion.div>
 

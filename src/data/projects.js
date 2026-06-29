@@ -140,8 +140,6 @@ export const projects = [
     description: "Consultancy Services for the Construction Supervision of Morka – Gircha – Chencha-Chano Road project; Lot 2: Chencha-Chano.",
     gallery: [
       "../chano-1.png",
-      "../chano-2.png",
-      "../chano-3.png"
     ]
   },
   {
@@ -177,22 +175,6 @@ export const projects = [
     gallery: [
       "../assosa-int-1.png",
       "../assosa-int-2.png",
-    ]
-  },
-  {
-    id: "irrigation-project",
-    title: "Bonga Irrigation Project",
-    location: "Gambella, Ethiopia",
-    year: "2024",
-    category: "Road / Bridge",
-    client: "CROSSLAND Construction",
-    price: "$1,903.32",
-    status: "Ongoing project",
-    consultants: "Smart Consulting Engineers PLC",
-    image: "../dca-irrigation.png",
-    description: "Detail Design Review and Develop material specifications (bill of quantity) and Technical Advice of Bonga solar pump irrigation scheme (50ha)",
-    gallery: [
-      "../dca-irrigation.png"
     ]
   },
 ];
