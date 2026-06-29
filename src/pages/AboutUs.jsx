@@ -52,7 +52,7 @@ const AboutUs = () => {
             alt="Engineering office"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />
-          <div className="absolute inset-0 bg-primary/20" />
+          <div className="absolute inset-0 bg-primary/1" />
         </div>
         <motion.div {...fadeIn} className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 tracking-tight leading-tight">

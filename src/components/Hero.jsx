@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-primary/40 z-10" />
+        <div className="absolute inset-0 bg-primary/25 z-10" />
         <motion.img
           initial={{ scale: 1.08 }}
           animate={{ scale: 1 }}
