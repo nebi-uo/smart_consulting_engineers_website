@@ -74,24 +74,6 @@ export const projects = [
     ]
   },
   {
-    id: "bistima-project",
-    title: "Hayk Bistima Road Project",
-    location: "Northern Ethiopia",
-    year: "2020",
-    category: "Road / Bridge",
-    client: "Ethiopian Roads Administration",
-    price: "$256,833.33",
-    status: "Ongoing project",
-    consultants: "Smart Consulting Engineers PLC",
-    image: "../bistima-3.png",
-    description: "Consultancy service for Detail Engineering Design and Working Drawing Preparation Design and Build of Hayk-Bistima-Chifra Road Project.",
-    gallery: [
-      "../bistima-1.png",
-      "../bistima-2.png",
-      "../bistima-3.png"
-    ]
-  }, 
-  {
     id: "guna-project",
     title: "Guna Road Project",
     location: "Southern Gondar Zone of Amhara Region",
@@ -108,6 +90,24 @@ export const projects = [
       "../guna-2.png",
       "../guna-3.png",
       "../guna-4.png"
+    ]
+  }, 
+  {
+    id: "bistima-project",
+    title: "Hayk Bistima Road Project",
+    location: "Northern Ethiopia",
+    year: "2020",
+    category: "Road / Bridge",
+    client: "Ethiopian Roads Administration",
+    price: "$256,833.33",
+    status: "Ongoing project",
+    consultants: "Smart Consulting Engineers PLC",
+    image: "../bistima-3.png",
+    description: "Consultancy service for Detail Engineering Design and Working Drawing Preparation Design and Build of Hayk-Bistima-Chifra Road Project.",
+    gallery: [
+      "../bistima-1.png",
+      "../bistima-2.png",
+      "../bistima-3.png"
     ]
   }, 
   {
@@ -129,20 +129,38 @@ export const projects = [
     ]
   },
   {
-    id: "zita-project",
-    title: "Zita River Bridge Project",
-    location: "Amhara Regional State",
-    year: "2022 - 2024",
+    id: "ambla-project",
+    title: "Ambla Chagni Project",
+    location: "North Western Ethiopia",
+    year: "2022 - 2025",
     category: "Road / Bridge",
-    client: "Amhara Road Bureau",
-    price: "$230,000",
+    client: "Ethiopian Road Administration",
+    price: "$289,670.80",
     status: "Ongoing project",
     consultants: "Smart Consulting Engineers PLC",
-    image: "../zita-1.png",
-    description: "Consultancy Services for the Construction Supervision of Zita River Bridge Project",
+    image: "../ambla-2.png",
+    description: "Consultancy Service for the Construction Supervision of Debre Markos – Debre Eliyas – Temcha-Kuch-Ayehu-Zigem – Chagni, Lot 4: Ambla-Chagni Road Project.",
     gallery: [
-      "../zita-1.png",
-      "../zita-2.png"
+      "../ambla-1.png",
+      "../ambla-2.png",
+      "../ambla-3.png"
+    ]
+  },
+  {
+    id: "assosa-internal-project",
+    title: "Assosa Internal Road Project",
+    location: "Assosa, Ethiopia",
+    year: "2021 - 2022",
+    category: "Road / Bridge",
+    client: "CROSSLAND Construction",
+    price: "$63,888.64",
+    status: "Ongoing project",
+    consultants: "Smart Consulting Engineers PLC",
+    image: "../assosa-int-1.png",
+    description: "Assosa Town Internal Asphalt, Design and Build Road Project",
+    gallery: [
+      "../assosa-int-1.png",
+      "../assosa-int-2.png",
     ]
   }
 ];

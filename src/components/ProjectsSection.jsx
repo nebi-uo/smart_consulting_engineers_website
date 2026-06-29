@@ -5,7 +5,7 @@ import { ArrowRight, MapPin } from 'lucide-react';
 import { projects } from '../data/projects';
 
 const ProjectsSection = () => {
-  const featured = projects.slice(0, 4);
+  const featured = projects.slice(0, 5);
 
   return (
     <section className="py-24 bg-primary overflow-hidden">
@@ -72,9 +72,9 @@ const ProjectsSection = () => {
           </Link>
         </motion.div>
 
-        {/* 3 smaller projects */}
-        <div className="grid md:grid-cols-3 gap-4">
-          {featured.slice(1).map((item, idx) => (
+        {/* 2 medium projects */}
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {featured.slice(1, 3).map((item, idx) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,41 @@ const ProjectsSection = () => {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
             >
-              <Link to={"/project/" + item.id} className="group block relative h-[280px] lg:h-[340px] overflow-hidden bg-gray-900">
+              <Link to={"/project/" + item.id} className="group block relative h-[320px] lg:h-[380px] overflow-hidden bg-gray-900">
+                <img
+                  src={item.image.replace('../', '/')}
+                  alt={item.title}
+                  className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+                />
+                <div className="absolute inset-0 flex flex-col justify-end p-8">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-[10px] font-bold uppercase tracking-widest text-accent border border-accent/40 px-3 py-1">{item.category}</span>
+                    <span className="text-[10px] font-semibold uppercase tracking-widest text-white/30">{item.year}</span>
+                  </div>
+                  <h3 className="text-xl lg:text-2xl font-display font-bold text-white tracking-tight leading-snug mb-2">
+                    {item.title}
+                  </h3>
+                  <div className="flex items-center gap-2 text-white/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <MapPin className="w-3 h-3 text-accent shrink-0" />
+                    <span className="text-xs font-semibold uppercase tracking-wider">{item.location}</span>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* 2 smaller projects */}
+        <div className="grid md:grid-cols-2 gap-4">
+          {featured.slice(3).map((item, idx) => (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+            >
+              <Link to={"/project/" + item.id} className="group block relative h-[260px] lg:h-[300px] overflow-hidden bg-gray-900">
                 <img
                   src={item.image.replace('../', '/')}
                   alt={item.title}

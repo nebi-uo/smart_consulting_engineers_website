@@ -37,7 +37,7 @@ const AboutUsSection = () => (
           Setting the standard in civil infrastructure since 2020.
         </h3>
         <p className="text-neutral-dark leading-relaxed mb-6 text-base opacity-80">
-          SMART Consulting Engineers PLC, established in 2020 and based in Addis Ababa, delivers expert civil engineering and infrastructure consultancy services. The firm specializes in planning, design, and supervision of roads, bridges, and related projects across urban and rural environments.
+          SMART Consulting and Engineering is a multidisciplinary engineering consultancy firm established in 2020 to provide professional consulting services in the fields of Highway and Bridge Engineering, Architectural and Infrastructure, Water Resources and Irrigation Engineering, And Related Infrastructure development projects.
         </p>
 
         <div className="flex gap-12 pt-8 border-t border-gray-200">

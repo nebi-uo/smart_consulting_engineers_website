@@ -37,7 +37,7 @@ function Footer() {
         <div>
           <h4 className="text-xs uppercase font-semibold tracking-wider mb-8 text-white">Connect</h4>
           <div className="flex gap-4">
-            <a href="#" className="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-accent hover:border-accent transition-all text-sm font-semibold">IN</a>
+            <a href="#"><img src="../linkedin.png" alt="" className='w-10 h-10'/></a>
           </div>
         </div>
 

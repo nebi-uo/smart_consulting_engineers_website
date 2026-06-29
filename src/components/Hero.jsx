@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-primary/75 z-10" />
+        <div className="absolute inset-0 bg-primary/40 z-10" />
         <motion.img
           initial={{ scale: 1.08 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
-          src="../hero.png"
+          src="../herosec.png"
           alt="Engineering structural project"
           className="absolute inset-0 w-full h-full object-cover"
         />

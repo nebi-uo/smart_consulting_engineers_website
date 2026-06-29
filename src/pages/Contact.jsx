@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <Phone className="w-5 h-5 text-accent" />, title: "Phone",    details: "+251 98 634 8686",          subDetails: "Mon–Fri, 8am–6pm" },
+    { icon: <Phone className="w-5 h-5 text-accent" />, title: "Phone",    details: "+251 98 634 8686 / +251 90 000 000",          subDetails: "Mon–Fri, 8am–6pm" },
     { icon: <Mail  className="w-5 h-5 text-accent" />, title: "Email",    details: "smartconsultinget@gmail.com",   subDetails: "We reply within 24h" },
     { icon: <MapPin className="w-5 h-5 text-accent" />, title: "Location", details: "Addis Ababa, Ethiopia",     subDetails: "Head Office" },
     { icon: <Clock className="w-5 h-5 text-accent" />, title: "Hours",    details: "Monday – Friday",           subDetails: "9:00 AM – 6:00 PM EAT" },
@@ -55,7 +55,7 @@ const Contact = () => {
             alt="Engineering office"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />
-          <div className="absolute inset-0 bg-primary/50" />
+          <div className="absolute inset-0 bg-primary/20" />
         </div>
         <motion.div {...fadeIn} className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 tracking-tight leading-tight">

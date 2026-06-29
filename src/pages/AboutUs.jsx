@@ -18,6 +18,7 @@ const AboutUs = () => {
     { value: "30+", label: "Projects Completed" },
     { value: "3+",  label: "Global Partners" },
     { value: "ISO",  label: "Certified Standards" },
+    { value: "43+",  label: "Professionals on Duty" }
   ];
 
   const whyUsCards = [
@@ -28,10 +29,13 @@ const AboutUs = () => {
   ];
 
   const leaders = [
-    { name: "Mr. Behailu Tsegaye", role: "General Manager and Partner", image: "/leader2.png" },
-    { name: "Mr. Merawi T/Mariam", role: "Partner and Highway Designer", image: "/mer.png"  },
-    { name: "Mr. Sofonias Loulseged", role: "Partner and Contract Engineer", image: "/leader3.png" },
-    { name: "Mr. Misleneh", role: "Head of HR Department", image: "../staff-1.png" }
+    { name: "Mr. Behailu Tsegaye", role: "General Manager / Partner and Senior Hydrologist", image: "/leader2.png" },
+    { name: "Mr. Merawi T/Mariam", role: "Partner and Senior Highway Engineer", image: "/mer.png"  },
+    { name: "Mr. Sofonias Loulseged", role: "Partner and Senior Contract Engineer", image: "/leader3.png" },
+    { name: "Mr. Misleneh", role: "Head of HR Department", image: "../staff-1.png" },
+    { name: "Mr. Kirubel Estifanos", role: "Head of Building Department / Senior Architect", image: "../kirubel.png" },
+    { name: "Mr. Endalkachew Kassaye", role: "Head of Bridge and Highway Design Department / Senior Highway Engineer", image: "../endalkachew.png" },
+    { name: "Ms. Frehiwot Teshome", role: "Head of Finance Department", image: "../frehiwot.png" }
   ];
 
   return (
@@ -48,7 +52,7 @@ const AboutUs = () => {
             alt="Engineering office"
             className="w-full h-full object-cover opacity-40 absolute inset-0"
           />
-          <div className="absolute inset-0 bg-primary/50" />
+          <div className="absolute inset-0 bg-primary/20" />
         </div>
         <motion.div {...fadeIn} className="relative z-10 text-center px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 tracking-tight leading-tight">
@@ -66,7 +70,7 @@ const AboutUs = () => {
         <motion.div {...fadeIn} className="text-center mb-16">
           <SectionTitle title="Who We Are" className="flex flex-col items-center !mb-6" />
           <p className="text-neutral-dark text-base leading-relaxed max-w-3xl mx-auto opacity-80">
-            SMART Consulting Engineers PLC (SCE) is a multidisciplinary engineering and management consultancy based in Addis Ababa, delivering infrastructure solutions across Ethiopia. Established in 2020, the firm provides services ranging from feasibility studies and engineering design to construction supervision and contract administration, supported by a team of over 40 professionals. Operating under an ISO 9001:2015-certified quality management system, SCE serves public institutions, private developers, NGOs, and international partners with innovative, cost-effective, and sustainable engineering solutions.
+            SMART Consulting and Engineering is a multidisciplinary engineering consultancy firm established in 2020 to provide professional consulting services in the fields of Highway and Bridge Engineering, Architectural and Infrastructure, Water Resources and Irrigation Engineering, And Related Infrastructure development projects. SMART Consulting and Engineering is staffed by a team of more than 43 qualified professionals and support personnel, comprising engineers, architects, surveyors and administrative staff. The firm's multidisciplinary expertise enables it to undertake projects of varying size and complexity while ensuring compliance with national and international engineering standards.
           </p>
         </motion.div>
 
