@@ -39,9 +39,9 @@ function TopBanner() {
             <Phone className="w-3 h-3 text-accent shrink-0" />
             <span className="text-[11px] font-medium tracking-wide">+251 98 634 8686</span>
           </a>
-          <a href="tel:+251986348686" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
+          <a href="tel:+251115578985" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
             <Phone className="w-3 h-3 text-accent shrink-0" />
-            <span className="text-[11px] font-medium tracking-wide">+251 90 000 0000</span>
+            <span className="text-[11px] font-medium tracking-wide">+251 11 557 8985</span>
           </a>
           <a href="mailto:smartconsultinget@gmail.com" className="hidden sm:flex items-center gap-1.5 text-gray-300 hover:text-white transition-colors">
             <Mail className="w-3 h-3 text-accent shrink-0" />

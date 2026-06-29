@@ -83,7 +83,7 @@ export const projects = [
     price: "$144,860",
     status: "Ongoing project",
     consultants: "Smart Consulting Engineers PLC",
-    image: "../guna-1.png",
+    image: "../guna-cover.png",
     description: "Consultancy service for Detail Engineering Design and Working Drawing Preparation Design and Build of Debretabor – Guna Kimer Dingay-Guna Road Project.",
     gallery: [
       "../guna-1.png", 
@@ -92,6 +92,22 @@ export const projects = [
       "../guna-4.png"
     ]
   }, 
+  {
+    id: "irrigation-project",
+    title: "Bonga Irrigation Project",
+    location: "Gambella, Ethiopia",
+    year: "2024",
+    category: "Road / Bridge",
+    client: "CROSSLAND Construction",
+    price: "$1,903.32",
+    status: "Ongoing project",
+    consultants: "Smart Consulting Engineers PLC",
+    image: "../dca-irrigation.png",
+    description: "Detail Design Review and Develop material specifications (bill of quantity) and Technical Advice of Bonga solar pump irrigation scheme (50ha)",
+    gallery: [
+      "../dca-irrigation.png"
+    ]
+  },
   {
     id: "bistima-project",
     title: "Hayk Bistima Road Project",
@@ -138,7 +154,7 @@ export const projects = [
     price: "$289,670.80",
     status: "Ongoing project",
     consultants: "Smart Consulting Engineers PLC",
-    image: "../ambla-2.png",
+    image: "../ambla-1.png",
     description: "Consultancy Service for the Construction Supervision of Debre Markos – Debre Eliyas – Temcha-Kuch-Ayehu-Zigem – Chagni, Lot 4: Ambla-Chagni Road Project.",
     gallery: [
       "../ambla-1.png",
@@ -162,5 +178,21 @@ export const projects = [
       "../assosa-int-1.png",
       "../assosa-int-2.png",
     ]
-  }
+  },
+  {
+    id: "irrigation-project",
+    title: "Bonga Irrigation Project",
+    location: "Gambella, Ethiopia",
+    year: "2024",
+    category: "Road / Bridge",
+    client: "CROSSLAND Construction",
+    price: "$1,903.32",
+    status: "Ongoing project",
+    consultants: "Smart Consulting Engineers PLC",
+    image: "../dca-irrigation.png",
+    description: "Detail Design Review and Develop material specifications (bill of quantity) and Technical Advice of Bonga solar pump irrigation scheme (50ha)",
+    gallery: [
+      "../dca-irrigation.png"
+    ]
+  },
 ];

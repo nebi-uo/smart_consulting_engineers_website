@@ -5,7 +5,7 @@ import { ArrowRight, MapPin } from 'lucide-react';
 import { projects } from '../data/projects';
 
 const ProjectsSection = () => {
-  const featured = projects.slice(0, 5);
+  const featured = projects.slice(0, 6);
 
   return (
     <section className="py-24 bg-primary overflow-hidden">
@@ -106,8 +106,8 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        {/* 2 smaller projects */}
-        <div className="grid md:grid-cols-2 gap-4">
+        {/* 3 smaller projects */}
+        <div className="grid md:grid-cols-3 gap-4">
           {featured.slice(3).map((item, idx) => (
             <motion.div
               key={item.id}

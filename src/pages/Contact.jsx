@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <Phone className="w-5 h-5 text-accent" />, title: "Phone",    details: "+251 98 634 8686 / +251 90 000 000",          subDetails: "Mon–Fri, 8am–6pm" },
+    { icon: <Phone className="w-5 h-5 text-accent" />, title: "Phone",    details: "+251 98 634 8686 / +251 11 557 8985",          subDetails: "Mon–Fri, 8am–6pm" },
     { icon: <Mail  className="w-5 h-5 text-accent" />, title: "Email",    details: "smartconsultinget@gmail.com",   subDetails: "We reply within 24h" },
     { icon: <MapPin className="w-5 h-5 text-accent" />, title: "Location", details: "Addis Ababa, Ethiopia",     subDetails: "Head Office" },
     { icon: <Clock className="w-5 h-5 text-accent" />, title: "Hours",    details: "Monday – Friday",           subDetails: "9:00 AM – 6:00 PM EAT" },
