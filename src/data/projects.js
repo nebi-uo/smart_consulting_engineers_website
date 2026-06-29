@@ -97,7 +97,7 @@ export const projects = [
     title: "Bonga Irrigation Project",
     location: "Gambella, Ethiopia",
     year: "2024",
-    category: "Road / Bridge",
+    category: "Irrigation Engineering",
     client: "CROSSLAND Construction",
     price: "$1,903.32",
     status: "Ongoing project",
